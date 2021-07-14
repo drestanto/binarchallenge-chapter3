@@ -1,8 +1,9 @@
 #main {
     background-image: url("../img/main-bg.jpg");
     background-size: cover;
-    height: 800px;
+    height: 100vh;
     width: 100%;
+    /*position: relative;*/
 }
 
 /*.jumbotron {
@@ -12,6 +13,6 @@
 #the-games {
     background-image: url("../img/the-games-bg.jpg");
     background-size: cover;
-    height: 800px;
+    height: 100vh;
     width: 100%;
 }
