@@ -2,7 +2,7 @@
     background-image: url("../img/main-bg.jpg");
     background-size: cover;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     /*position: relative;*/
 }
 
@@ -14,14 +14,22 @@
     background-image: url("../img/the-games-bg.jpg");
     background-size: cover;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
 }
 
 #features {
     background-image: url("../img/features.jpg");
     background-size: cover;
+    background-position: right;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     padding-top: 20%;
     padding-left: 30%;
+}
+
+#requirements {
+    background-image: url("../img/requirements.png");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
 }
