@@ -17,6 +17,16 @@
     padding-top: 25vh
 }
 
+.tombol {
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 4px;
+    padding-top: 2vh;
+    padding-bottom: : 2vh;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    text-decoration-color: #FFFFFF
+}
+
 #the-games {
     background-image: url("../img/the-games-bg.jpg");
     background-size: cover;
