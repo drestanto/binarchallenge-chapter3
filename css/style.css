@@ -32,6 +32,21 @@
     background-size: cover;
     height: 100vh;
     width: 100vw;
+    display: grid;
+    grid-template-columns: 3fr 5fr 1fr;
+    grid-template-rows: 1fr 2fr 7fr;
+    grid-template-areas:
+      ".              .                ."
+      "the-games-text .                ."
+      ".                picture-slider .";
+}
+
+.the-games-title {
+    grid-area: the-games-text;
+}
+
+.karosel {
+    grid-area: picture-slider;
 }
 
 #features {
