@@ -1,14 +1,21 @@
 #main {
     background-image: url("../img/main-bg.jpg");
     background-size: cover;
+    background-position: center;
     height: 100vh;
     width: 100vw;
-    /*position: relative;*/
 }
 
-/*.jumbotron {
+.centroid {
+    text-align: center;
+    position: relative;
+    top: 40vh;
+}
 
-}*/
+
+.downer {
+    padding-top: 25vh
+}
 
 #the-games {
     background-image: url("../img/the-games-bg.jpg");
