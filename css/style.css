@@ -24,7 +24,8 @@
     padding-bottom: : 2vh;
     padding-left: 4vw;
     padding-right: 4vw;
-    text-decoration-color: #FFFFFF
+    color: #1A1917;
+    font-weight: bold;
 }
 
 #the-games {
@@ -33,12 +34,12 @@
     height: 100vh;
     width: 100vw;
     display: grid;
-    grid-template-columns: 3fr 5fr 1fr;
+    grid-template-columns: 3fr 5fr;
     grid-template-rows: 1fr 2fr 7fr;
     grid-template-areas:
-      ".              .                ."
-      "the-games-text .                ."
-      ".                picture-slider .";
+      ".              .             "
+      "the-games-text .             "
+      ".              picture-slider";
 }
 
 .the-games-title {
@@ -80,7 +81,6 @@ table, th, td {
 #top-score {
     background-image: url("../img/top-score-bg.png");
     background-size: cover;
-    background-position: center;
     height: 100vh;
     width: 100vw;
 }
