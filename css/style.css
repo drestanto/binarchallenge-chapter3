@@ -76,12 +76,12 @@ p {
     height: 100vh;
     width: 100vw;
     display: grid;
-    grid-template-columns: 3fr 5fr;
+    grid-template-columns: 3fr 4fr 1fr;
     grid-template-rows: 1fr 2fr 7fr;
     grid-template-areas:
-      ".              .             "
-      "the-games-text .             "
-      ".              picture-slider";
+        ".              .              ."
+        "the-games-text .              ."
+        ".              picture-slider .";
 }
 
 .the-games-title {
@@ -111,13 +111,15 @@ p {
 
 .tabel {
     margin-top: 2%;
+    margin-left: 10%;
     color: white;
     font-size: medium;
     margin-bottom: 0%;
 }
 
-table, th, td {
-  border: 1px solid white;
+.tabel th {
+    border-collapse: collapse;
+    border: 1px solid white;
 }
 
 #top-score {
