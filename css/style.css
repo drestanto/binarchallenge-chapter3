@@ -2,30 +2,34 @@
 
 body,
 html {
-  color: white;
-  margin: 0;
-  padding: 0;
-  font-family: 'Open Sans';
-  font-size: 16px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+    font-size: 16px;
 }
 
 h1 {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 3em;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3em;
 }
 
 h2 {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 2em;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2em;
 }
 
 h3 {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 1.5em;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5em;
 }
 
 h4 {
-  color:#FCB344;
+    color: white;
+    color:#FCB344;
 }
 
 #main {
@@ -45,6 +49,11 @@ h4 {
 
 .downer {
     padding-top: 20vh
+}
+
+.downer a p {
+  color: white;
+  text-decoration: none;
 }
 
 .tombol {
