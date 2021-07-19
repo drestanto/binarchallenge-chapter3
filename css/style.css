@@ -1,3 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap');
+
+body,
+html {
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans';
+  font-size: 16px;
+}
+
+h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 3em;
+}
+
+h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2em;
+}
+
+h3 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.5em;
+}
+
+h4 {
+  color:#FCB344;
+}
+
 #main {
     background-image: url("../img/main-bg.jpg");
     background-size: cover;
@@ -14,14 +44,14 @@
 
 
 .downer {
-    padding-top: 25vh
+    padding-top: 20vh
 }
 
 .tombol {
     background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
     border-radius: 4px;
-    padding-top: 2vh;
-    padding-bottom: : 2vh;
+    padding-top: 1vh;
+    height : 10vh;
     padding-left: 4vw;
     padding-right: 4vw;
     color: #1A1917;
