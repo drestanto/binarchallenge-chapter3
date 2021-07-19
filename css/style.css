@@ -28,8 +28,11 @@ h3 {
 }
 
 h4 {
-    color: white;
     color:#FCB344;
+}
+
+p {
+    color: white;
 }
 
 #main {
