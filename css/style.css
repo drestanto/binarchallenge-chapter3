@@ -109,9 +109,12 @@ p {
     width: 100vw;
 }
 
+.margin-padding {
+    padding-top: 10vh;
+    padding-left: 10vw;
+}
+
 .tabel {
-    margin-top: 2%;
-    margin-left: 10%;
     color: white;
     font-size: medium;
     margin-bottom: 0%;
