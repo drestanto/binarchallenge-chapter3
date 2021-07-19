@@ -237,3 +237,31 @@ p {
     position: relative;
     z-index: 1;
 }
+
+/* SUBSCRIBE */
+#subscribe {
+    background-color: #080A0B;
+    background-image: url('../img/skull.png');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position-x: 75%;
+    background-position-y: 75%;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    background-size: 25%;
+    background-position-x: 20%;
+    background-position-y: 50%;
+    font-size: medium;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    ".    subscribe";
+}
+
+#subscribe .row {
+    grid-area: subscribe;
+}
