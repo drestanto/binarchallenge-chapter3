@@ -12,7 +12,7 @@ html {
 h1 {
     color: white;
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 3em;
+    font-size: 4em;
 }
 
 h2 {
@@ -40,13 +40,13 @@ p {
     background-size: cover;
     background-position: center;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
 }
 
 .centroid {
     text-align: center;
     position: relative;
-    top: 40vh;
+    top: 30vh;
 }
 
 
@@ -70,11 +70,25 @@ p {
     font-weight: bold;
 }
 
+.navbar {
+    font-family: 'Open Sans', sans-serif;
+    background: black;
+    font-weight: bold;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+
+.navbar .container .row {
+    width: 100%; 
+    margin: 0;
+}
+
 #the-games {
     background-image: url("../img/the-games-bg.jpg");
     background-size: cover;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     display: grid;
     grid-template-columns: 3fr 4fr 1fr;
     grid-template-rows: 1fr 2fr 7fr;
@@ -97,7 +111,7 @@ p {
     background-size: cover;
     background-position: right;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     padding-top: 20%;
     padding-left: 30%;
 }
@@ -106,11 +120,11 @@ p {
     background-image: url("../img/requirements.png");
     background-size: cover;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
 }
 
 .margin-padding {
-    padding-top: 10vh;
+    padding-top: 3vh;
     padding-left: 10vw;
 }
 
@@ -129,7 +143,7 @@ p {
     background-image: url("../img/top-score-bg.png");
     background-size: cover;
     height: 900px;
-    width: 100vw;
+    width: 100%;
     padding: 5% 10%;
     text-align: left;
     text-align: center;
@@ -152,6 +166,9 @@ p {
 
 .top-score-title {
     grid-area: quotes-title;
+    text-align: left;
+    position: relative;
+    top: 20vh;
 }
 
 .testimonial {
@@ -161,7 +178,7 @@ p {
     grid-template-rows: repeat(3, 1fr);
     grid-template-areas: 
     ".    evan "
-    "jada .    "
+    "jada jada "
     ".    aaron";
 }
 
@@ -267,4 +284,106 @@ p {
 
 #subscribe .row {
     grid-area: subscribe;
+}
+
+#footer {
+    margin: 0;
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: x-small;
+    z-index: 1001;
+}
+
+hr {
+    border-color: rgb(189, 189, 189);
+    color: white;
+}
+
+.card a {
+    color: rgb(189, 189, 189);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+.card a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.under-footer {
+    color: rgb(189, 189, 189);
+    padding-bottom: 30px;
+    height: 100%;
+    text-align: center;
+}
+
+.under-footer>* {
+    justify-content: center;
+}
+
+.fa-facebook, .fa-twitter, .fa-youtube-play, .fa-twitch {
+    font-size: medium;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.privacy-policy {
+    padding-top: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.privacy-policy a {
+    text-decoration: none;
+    color: white;
+}
+
+@media (min-width: 992px) {
+
+    .card a {
+        margin-left: 20;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .fa-facebook:hover {
+        color: #3b5998;
+    }
+
+    .fa-twitter:hover {
+        color: turquoise;
+    }
+
+    .fa-youtube-play:hover {
+        color: red;
+    }
+    .fa-twitch:hover {
+        color: #6441a5;
+    }
+
+    .copyright {
+        font-size: medium;
+    }
+
+    .privacy-policy {
+        padding-top: 0;
+        text-align: right;
+    }
+
+    .privacy-policy p {
+        font-size: medium;
+    }
+
+    .form-control::placeholder {
+        color: maroon;
+        opacity: 1;
+    }
+
+    .close{
+        z-index:999999;
+    }
+
 }
